@@ -1,0 +1,78 @@
+{
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express-serve-static-core": "^4.17.30",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/multer": "^1.4.7",
+    "@types/nodemailer": "^6.4.5",
+    "@types/swagger-jsdoc": "^6.0.1",
+    "@types/swagger-ui-express": "^4.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/nanoid": "^3.0.0",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.31.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "localtunnel": "^2.0.2",
+    "logger": "^0.0.1",
+    "mongoose": "^6.2.10",
+    "mongoose-data-seed": "^2.1.6",
+    "multer": "^1.4.4",
+    "nanoid": "^3.1.20",
+    "node-fetch": "^2.6.1",
+    "node-seeder": "^1.1.2",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.15",
+    "razorpay": "^2.8.3",
+    "simple-node-logger": "^21.8.12",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-jsdoc-generator": "^1.0.3",
+    "swagger-ui-express": "^4.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.2",
+    "uninstall": "^0.0.0",
+    "winston": "^3.8.1"
+  },
+  "name": "uclone-backend",
+  "description": "Online learning platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev app.ts",
+    "format": "npx prettier --write",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit-thoughtwin/uclone-backend.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit-thoughtwin/uclone-backend/issues"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "homepage": "https://github.com/amit-thoughtwin/uclone-backend#readme"
+}
